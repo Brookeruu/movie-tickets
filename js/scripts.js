@@ -29,5 +29,6 @@ $(document).ready(function(){
     var ticketCost = newTicket.determineCost();
     console.log(ticketCost);
 
+    $("#price").text(ticketCost);
   });
 });
